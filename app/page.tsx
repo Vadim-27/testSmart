@@ -1,18 +1,13 @@
-
-
-
 export default function Home() {
-  return (
-    <main className="w-[976px] bg-black ">
-      <div className="bg-[#151515] w-[420px] p-16 rounded-md flex flex-col items-center justify-center mt-24 ml-auto mr-auto">
-        <h1 className="text-white font-poppins text-4xl font-semibold mb-16">
-          Welcome
-        </h1>
-        <p className=" text-white font-poppins text-[21px] font-medium leading-25  ">
-          Explore the list of users by clicking on the "Users" label in the
-          left-side menu.
-        </p>
-      </div>
-    </main>
-  );
+    return (
+        <main className="w-[976px] bg-black">
+            <div className="ml-auto mr-auto mt-24 flex w-[420px] flex-col items-center justify-center rounded-md bg-[#151515] p-16">
+                <h1 className="font-poppins mb-16 text-4xl font-semibold text-white">Welcome</h1>
+                <p className="font-poppins leading-25 text-[21px] font-medium text-white">
+                    Explore the list of users by clicking on the "Users" label in the left-side
+                    menu.
+                </p>
+            </div>
+        </main>
+    );
 }

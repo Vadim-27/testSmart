@@ -1,1 +1,1 @@
-export const getFilter = ({ filter }: { filter: string })  => filter;
+export const getFilter = ({ filter }: { filter: string }) => filter;
