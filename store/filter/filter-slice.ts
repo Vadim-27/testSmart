@@ -1,10 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-type FiltersState = {
-    name: string;
-    username: string;
-    email: string;
-    phone: string;
-};
+
+interface FiltersState {
+    [key: string]: string | undefined;
+}
 
 const initialState: FiltersState = {
     name: '',
@@ -25,6 +23,7 @@ const filtersSlice = createSlice({
                 ...action.payload,
             };
         },
+       
         clearFilters(state) {
             return initialState;
         },

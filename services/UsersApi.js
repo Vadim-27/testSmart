@@ -9,5 +9,5 @@ export const getAllUsers = async () => {
     
     return data;
 };
-console.log('data', getAllUsers());
+
 
